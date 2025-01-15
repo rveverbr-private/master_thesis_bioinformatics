@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=41", "wheel", "setuptools_scm[toml]>=6.2", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
+include = ["crispyKC"]  # package names should match these glob patterns (["*"] by default)
+
+[project]
+name = "crispyKC"
+authors = [
+    {name = "Wouter Saelens", email = "wouter.saelens@gmail.com"},
+]
+description = "crispyKC"
+requires-python = ">=3.9"
+keywords = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy",
+    "pandas",
+    "jupytext",
+]
+dynamic = ["version", "readme"]
+license = {text = "MIT"}
+
+[tool.setuptools.dynamic]
+readme = {file = "README.md", content-type = "text/markdown"}
+
+[project.optional-dependencies]
+dev = [
+
+]
+test = [
+    "pytest",
+]
+
+[tool.setuptools_scm]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore",
+]
+
+[tool.pylint.'MESSAGES CONTROL']
+max-line-length = 120
+disable = [
+    "too-many-arguments",
+    "not-callable",
+    "redefined-builtin",
+    "redefined-outer-name",
+]
+
+[tool.ruff]
+line-length = 500
+ignore-init-module-imports = true
+ignore = ['F401']
+include = ['src/**/*.py']
+exclude = ['scripts/*']
+
+[tool.black]
+line-length = 120
+target-version = ['py37', 'py38']
+
+
+[tool.jupytext]
+formats = "ipynb,py:percent"

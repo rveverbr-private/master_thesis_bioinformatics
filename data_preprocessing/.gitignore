@@ -1,0 +1,6 @@
+output
+data
+software
+*.ipynb
+__pycache__
+*.egg-info

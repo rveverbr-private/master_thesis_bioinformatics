@@ -1,0 +1,11 @@
+,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10
+0,Cd5l,Malat1,H2-Eb1,Ccl4,Ccl24,Cxcl9,Cxcl9,Vcam1,Isg15,Apoe
+1,Slc40a1,Ppia,H2-Ab1,Il1b,Clec4f,Ifitm3,H2-Eb1,Clec4f,Cxcl10,Lyz2
+2,Lyz2,Zeb2,H2-Aa,Fos,Lyz2,Plac8,H2-Aa,Apoe,H2-Eb1,Wfdc17
+3,C1qb,Rps2,Cd74,Dusp1,Cd5l,Ifitm2,H2-Ab1,Ly6a,H2-Aa,Vcam1
+4,C1qc,Ptma,Apoe,Cxcl2,Gpx1,Alox5ap,Cd74,Id3,H2-Ab1,Ifitm3
+5,C1qa,Atp5mc1,C1qb,Nfkbia,Plac8,H2-Aa,Bcl2a1b,Plac8,Serpina3g,Ccl24
+6,Igf1,Plac8,C1qa,Junb,Vim,Cxcl10,Sod2,Hmox1,Parp14,Il18bp
+7,S100a6,Ptprc,C1qc,Plek,Prdx5,Apoe,Prdx5,Ccl4,Ifi27l2a,Hsp90aa1
+8,Ctsb,Hint1,Ly6a,Nfkbiz,Pip4k2a,Rpl21,Fos,Lgals1,Clec4f,Pcna
+9,Hdac9,Slc8a1,Aif1,Ifrd1,Tcf7l2,H2-Ab1,Atp6v0c,Ccl24,Cd74,Xist
